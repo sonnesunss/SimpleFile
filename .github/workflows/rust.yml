@@ -26,7 +26,7 @@ jobs:
         path: |
           ~/.cargo/registry
           ~/.cargo/git
-          c/target
+          simple_file/target
         key: ${{ runner.os }}-cargo-${{ hashFiles('simple_file/Cargo.lock') }}
         restore-keys: |
           ${{ runner.os }}-cargo-
