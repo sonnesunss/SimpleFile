@@ -1,0 +1,7 @@
+[package]
+name = "simple_bufreader_bufwriter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+simple_file = { path = "../simple_file" }
